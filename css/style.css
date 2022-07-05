@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.top-banner {
+  margin-top: 50px;
+}
+.container {
+  display: flex;
+}
+.artical-item h1 {
+  font-size: 60px;
+  margin: 5px;
+  font-weight: 600;
+  color: #575757;
+}
+.artical-item p {
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.artical-item {
+  width: 50%;
+  padding-top: 170px;
+  padding-left: 220px;
+}
+.showcase-item {
+  width: 50%;
+}
+.high-light {
+  background-image: linear-gradient(90deg, #fba24f, #ff1e1e);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 800;
+}
+.of-button {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(135deg, #fba24f, #ff1e1e);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 50px #ff1e1e;
+}
