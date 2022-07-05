@@ -7,9 +7,10 @@ body {
   margin-bottom: 50px;
 }
 .about-section {
-  background-image: url(/images/shapes/Frame\ 58.jpg);
+  background-image: url("./images/shapes/Frame58.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
   padding-top: 30px;
 }
 .container {
@@ -65,46 +66,47 @@ body {
 }
 .of-button {
   text-decoration: none;
-  padding: 10px 40px;
+  padding: 15px 40px;
   background-image: linear-gradient(135deg, #fba24f, #ff1e1e);
   color: white;
-  border-radius: 20px;
+  border-radius: 25px;
   box-shadow: 2px 2px 50px #ff1e1e;
+}
+.my-recipies-item-section {
+  margin-bottom: 100px;
 }
 .my-recipies-section {
   text-align: center;
   margin-bottom: 50px;
 }
-.my-recipies-item-showcase{
+.my-recipies-item-showcase {
   display: flex;
-  justify-content: center;
-
+  justify-content: space-evenly;
 }
 .my-recipies-section-heading h1 {
   font-size: 50px;
   color: #575757;
   margin: 10px;
 }
-.my-recipies-section-blog{
+.my-recipies-section-blog {
   width: 700px;
   margin: auto;
   font-size: 17px;
   color: #575757;
 }
-.my-recipies-item-blog p{
+.my-recipies-item-blog p {
   color: #575757;
-  padding-left:5px ;
+  padding-left: 5px;
   margin: 0;
 }
-.my-recipies-item-blog h1{
+.my-recipies-item-blog h1 {
   color: #393939;
   margin: 10px 10px;
 }
-.my-recipies-item{
+.my-recipies-item {
   text-align: center;
   width: 35%;
-  margin-right: 50px;
-  box-shadow: 2px 2px 20px gray;
+  box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.313);
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -112,12 +114,50 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.my-recipies-item img{
+.my-recipies-item img {
   width: 80%;
-  
 }
-.my-recipies-item-blog{
+.my-recipies-item-blog {
   text-align: left;
   width: 80%;
   margin: auto;
+}
+.live-info-container {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.313);
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.info-item h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+.info-item p {
+  margin-bottom: 50px;
+  margin-top: 0;
+  padding: 0;
+}
+.live-info {
+  margin-bottom: 100px;
+}
+.footer {
+  padding-top: 50px;
+  text-align: center;
+  height: 200px;
+  background-color: #0b0d17;
+}
+.footer h1 {
+  color: white;
+}
+.footer p {
+  color: white;
 }
