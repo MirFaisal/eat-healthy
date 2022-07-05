@@ -12,6 +12,7 @@ body {
   background-size: 100%;
   background-position: center;
   padding-top: 30px;
+  margin-bottom: 50px;
 }
 .container {
   display: flex;
