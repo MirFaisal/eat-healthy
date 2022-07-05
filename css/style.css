@@ -12,7 +12,7 @@ body {
   background-size: 100%;
   background-position: center;
   margin-bottom: 50px;
-  padding-top:100px ;
+  padding-top: 100px;
 }
 .container {
   display: flex;
@@ -47,7 +47,7 @@ body {
 }
 .about-artical {
   width: 50%;
-  padding-top: 140px;
+  padding-top: 120px;
   padding-right: 100px;
 }
 .about-artical h1 {
@@ -139,7 +139,7 @@ body {
   justify-content: center;
 }
 .info-item h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 60px;
   margin-bottom: 0px;
   padding: 0;
